@@ -1,0 +1,29 @@
+app:
+  name: AppzMongoDB
+  code: AMDB
+  notify: appz@cloudbourne.co
+
+build:
+  version: 4.4
+  env: DEV
+  build_file: none
+  output_files: output/*.zip
+  image_template: mongo-4.4
+  image_name: alpha/mongodb
+
+deploy:
+  context: alpha/DEV
+  replicas: 1
+  port:
+  - 27017
+
+volumes:
+- claim: mongo-data
+  mount: /appz/data
+  name: mongo-data
+
+monitor:
+  notify: appzops@cloudbourne.co      
+
+properties:
+  revision : 02
