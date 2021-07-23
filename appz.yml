@@ -9,8 +9,7 @@ build:
   build_file: none
   output_files: output/*.zip
   image_template: mongo-4.4
-  image_name: alpha/mongodb
-
+  
 deploy:
   context: alpha/DEV
   type: statefulset
@@ -24,10 +23,6 @@ volumes:
   name: mongo-data
   size: 5Gi
   mode: ReadWriteOnce
-  class: microk8s-hostpath
   
-monitor:
-  notify: appzops@cloudbourne.co      
-
 properties:
   revision : 04
