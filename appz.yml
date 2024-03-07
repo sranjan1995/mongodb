@@ -10,7 +10,7 @@ build:
   image_template: mongo-6.8
   
 deploy:
-  context: smruti/DEV
+  context: sranjan1995/DEV
   type: statefulset
   replicas: 1
   port:
