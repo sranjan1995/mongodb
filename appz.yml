@@ -25,4 +25,4 @@ volumes:
   
 properties:
   revision : 04
-  AUTH_ENABLE: 1
+  AUTH_ENABLE: 0
