@@ -23,5 +23,5 @@ volumes:
   mode: ReadWriteOnce
   
 properties:
-  revision : 05
+  revision : 06
   AUTH_ENABLE: 0
