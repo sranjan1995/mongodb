@@ -7,7 +7,7 @@ build:
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: mongo-6.8
+  image_template: mongo-6.0
   
 deploy:
   context: sranjan1995/DEV
