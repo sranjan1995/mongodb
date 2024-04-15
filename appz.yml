@@ -24,10 +24,5 @@ volumes:
   
 properties:
   revision : 09
-  AUTH_ENABLE: 1
-  DB_USER_ADMIN: appz
-  DB_USER_ADMIN_PASSWORD:
-    vault: DB_USER_ADMIN_PASSWORD
-  REPLICATION: 3
-  AUTH_KEY: 
-    vault: AUTH_KEY
+  AUTH_ENABLE : 1
+  REPLICATION : 3
