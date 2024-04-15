@@ -3,16 +3,16 @@ app:
   code: AMDB
   notify: srswain@ecloudcontrol.com
 build:
-  version: 5.0
+  version: 6.0
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: mongo-5.0
+  image_template: mongo-6.0
   
 deploy:
   context: sranjan1995/DEV
   type: statefulset
-  replicas: 3
+  replicas: 1
   port:
   - 27017
 volumes:
