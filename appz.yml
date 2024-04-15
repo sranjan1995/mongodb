@@ -31,3 +31,6 @@ properties:
     vault : DB_USER_ADMIN_PASSWORD
   AUTH_KEY :
     vault : AUTH_KEY
+  MONGODB_HOST : 127.0.0.1
+  MONGODB_PORT : 27017
+  MASTER_ENABLE : yes
