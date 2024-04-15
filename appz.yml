@@ -24,13 +24,10 @@ volumes:
   
 properties:
   revision : 9
-  AUTH_ENABLE : 1
-  REPLICATION : 3
+  AUTH_ENABLE : 0
   DB_USER_ADMIN : appz
   DB_USER_ADMIN_PASSWORD : 
     vault : DB_USER_ADMIN_PASSWORD
-  AUTH_KEY :
-    vault : AUTH_KEY
   MONGODB_HOST : 127.0.0.1
   MONGODB_PORT : 27017
   MASTER_ENABLE : yes
