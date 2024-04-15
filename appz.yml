@@ -3,11 +3,11 @@ app:
   code: AMDB
   notify: srswain@ecloudcontrol.com
 build:
-  version: 6.0
+  version: 5.0
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: mongo-6.0
+  image_template: mongo-5.0
   
 deploy:
   context: sranjan1995/DEV
