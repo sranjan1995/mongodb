@@ -23,7 +23,7 @@ volumes:
   mode: ReadWriteOnce
   
 properties:
-  revision : 27
+  revision : 28
   AUTH_ENABLE : 0
   DB_USER_ADMIN : appz
   DB_USER_ADMIN_PASSWORD : 
