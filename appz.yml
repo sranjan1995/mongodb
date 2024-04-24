@@ -32,5 +32,5 @@ properties:
   MONGODB_PORT : 27017
   MASTER_ENABLE : yes
   REPLICATION: 3
-  smruti : 
-    vault : smruti
+  AUTH_KEY :
+    vault : AUTH_KEY
