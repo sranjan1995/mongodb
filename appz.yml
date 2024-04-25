@@ -24,14 +24,14 @@ volumes:
   
 properties:
   revision : 44
-  AUTH_ENABLE : 1
-  DB_USER_ADMIN : admin
+  AUTH_ENABLE : 0
+  DB_USER_ADMIN : appz
   DB_USER_ADMIN_PASSWORD : 
     vault : DB_USER_ADMIN_PASSWORD
   MONGODB_HOST : 127.0.0.1
   MONGODB_PORT : 27017
   MASTER_ENABLE : yes
-  REPLICATION: 3
-  AUTH_KEY :
-    vault : AUTH_KEY
-  APPZ_APP_NAME : mongodb-6-0
+  REPLICATION: 1
+  #AUTH_KEY :
+    #vault : AUTH_KEY
+  #APPZ_APP_NAME : mongodb-6-0
