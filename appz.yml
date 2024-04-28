@@ -31,7 +31,7 @@ properties:
   MONGODB_HOST : 127.0.0.1
   MONGODB_PORT : 27017
   MASTER_ENABLE : yes
-  REPLICATION: 1
+  REPLICATION: 0
   #AUTH_KEY :
     #vault : AUTH_KEY
   #APPZ_APP_NAME : mongodb-6-0
