@@ -35,3 +35,4 @@ properties:
   #AUTH_KEY :
     #vault : AUTH_KEY
   #APPZ_APP_NAME : mongodb-6-0
+  DISABLE_FLUENTD : 0
